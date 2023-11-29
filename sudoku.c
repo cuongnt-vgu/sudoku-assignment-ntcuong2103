@@ -54,6 +54,9 @@ void print_solution(SudokuBoard* boardRef)
     }
 }
 
+
+
+
 void set_candidate(Cell* cell, int value)
 {
     cell->candidate[value - 1] = 1;
